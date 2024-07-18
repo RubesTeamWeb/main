@@ -168,7 +168,7 @@ footer.footer a:hover {
   display: block;
 }
 
-.prev, .next {
+.left, .right {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -183,17 +183,17 @@ footer.footer a:hover {
   user-select: none;
 }
 
-.prev {
+.left {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.next {
+.right {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
 
-.prev:hover, .next:hover {
+.left:hover, .right:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
